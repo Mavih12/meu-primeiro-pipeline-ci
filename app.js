@@ -1,5 +1,5 @@
 
-// AplicaÃ§Ã£o simples para demonstrar CI/CD
+// Aplicasoes simples para demonstrar CI/CD
 
 function saudacao(nome) {
 
@@ -43,7 +43,7 @@ function calcular(a, b, operacao) {
 
 }
 
-// Exportar funÃ§Ãµes para testes (em ambiente Node.js)
+// Exportar funsoes para testes (em ambiente Node.js)
 
 if (typeof module !== 'undefined' && module.exports) {
 
