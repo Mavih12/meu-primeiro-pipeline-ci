@@ -1,4 +1,4 @@
-name: Pipeline de CI/CD - Meu Primeiro RobÃ´
+name: Pipeline de CI/CD - Meu Primeiro Robo
 
 # Quando este workflow deve ser executado?
 
@@ -24,7 +24,7 @@ jobs:
 
     steps:
 
-    - name: 1. Baixando o cÃ³digo do repositÃ³rio
+    - name: 1. Baixando o codigo do repositorio
 
       uses: actions/checkout@v4      
 
@@ -46,7 +46,7 @@ jobs:
 
         else
 
-          echo "app.js nÃ£o encontrado"
+          echo "app.js nao encontrado"
 
           exit 1
 
@@ -60,25 +60,25 @@ jobs:
 
         node-version: '18'
 
-    - name: 4. Executando a aplicaÃ§Ã£o
+    - name: 4. Executando a aplicasoes
 
       run: |
 
-        echo "Iniciando a aplicaÃ§Ã£o..."
+        echo "Iniciando a aplicasoes..."
 
         node app.js
 
-        echo "AplicaÃ§Ã£o executada com sucesso!"        
+        echo "Aplicasoes executada com sucesso!"        
 
     - name: 5. Mensagem de sucesso
 
       run: |
 
-        echo "ParabÃ©ns! Seu primeiro pipeline de CI estÃ¡ funcionando!"
+        echo "Parabens! Seu primeiro pipeline de CI esta¡ funcionando!"
 
-        echo "EstatÃ­sticas da execuÃ§Ã£o:"
+        echo "EstatÃ­sticas da execusoes:"
 
-        echo "   - RepositÃ³rio: ${{ github.repository }}"
+        echo "   - Repositorio: ${{ github.repository }}"
 
         echo "   - Branch: ${{ github.ref_name }}"
 
