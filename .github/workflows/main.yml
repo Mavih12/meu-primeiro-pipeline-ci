@@ -10,7 +10,7 @@ jobs:
   verificacoes-basicas:
     runs-on: ubuntu-latest
 
-    steps:
+ steps:
       - name: Baixando o codigo
         uses: actions/checkout@v4
 
