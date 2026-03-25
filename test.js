@@ -1,4 +1,3 @@
-
 // Sistema de testes automatizados
 
 const { saudacao, calcular } = require('./app.js');
