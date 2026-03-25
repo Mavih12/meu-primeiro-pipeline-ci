@@ -71,12 +71,19 @@ jobs:
         echo "Aplicasoes executada com sucesso!"        
 
         - name: 5. Mensagem de sucesso
+        
       run: |
+      
         echo "Parabens! Seu primeiro pipeline de CI esta funcionando!"
+        
         echo "Estatisticas da execucao:"
+        
         echo "   - Repositorio: ${{ github.repository }}"
+        
         echo "   - Branch: ${{ github.ref_name }}"
+        
         echo "   - Commit: ${{ github.sha }}"
+        
         echo "   - Autor: ${{ github.actor }}"
 
         echo "   - Branch: ${{ github.ref_name }}"
