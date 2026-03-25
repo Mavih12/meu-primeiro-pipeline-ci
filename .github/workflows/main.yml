@@ -70,7 +70,7 @@ jobs:
 
         echo "Aplicasoes executada com sucesso!"        
 
-        - name: 5. Mensagem de sucesso
+     - name: 5. Mensagem de sucesso
         
       run: |
       
